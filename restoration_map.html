@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a24cb3a1ede148c5ad88c71342400192 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a24cb3a1ede148c5ad88c71342400192" ></div>
+        
+</body>
+<script>    
+    
+            var map_a24cb3a1ede148c5ad88c71342400192 = L.map(
+                "map_a24cb3a1ede148c5ad88c71342400192",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[-60, -180], [90, 180]],
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c445aacfc00544f08096425beb5e1869 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 15, "maxZoom": 15, "minZoom": 2, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+            var marker_0daa10060a5b4c798a4ac8a11e0cffb9 = L.marker(
+                [40.685702, -6.925733],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_92ee16110f10475dbe8c900260f082bb = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_a50b677e897f4c87bdb59f2fde137005 = $(`<div id="html_a50b677e897f4c87bdb59f2fde137005" style="width: 100.0%; height: 100.0%;">Greater Côa Valley Rewilding Area</div>`)[0];
+            popup_92ee16110f10475dbe8c900260f082bb.setContent(html_a50b677e897f4c87bdb59f2fde137005);
+        
+
+        marker_0daa10060a5b4c798a4ac8a11e0cffb9.bindPopup(popup_92ee16110f10475dbe8c900260f082bb)
+        ;
+
+        
+    
+    
+            var marker_425274a226294a79a48b14ac3aff17c6 = L.marker(
+                [45.197871, 29.041022],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_e4765d189bef4126aa700e7fc880810b = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_1be600362fb64f378c18fc224906a001 = $(`<div id="html_1be600362fb64f378c18fc224906a001" style="width: 100.0%; height: 100.0%;">Danube Delta Rewilding Area</div>`)[0];
+            popup_e4765d189bef4126aa700e7fc880810b.setContent(html_1be600362fb64f378c18fc224906a001);
+        
+
+        marker_425274a226294a79a48b14ac3aff17c6.bindPopup(popup_e4765d189bef4126aa700e7fc880810b)
+        ;
+
+        
+    
+    
+            var marker_c0d904acb615434bb399734e684383c7 = L.marker(
+                [45.347508, 22.610865],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_d6e139a668594290be9f7e75600bf3e5 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_df7e52eaf9c64c6fa421d1e625829f57 = $(`<div id="html_df7e52eaf9c64c6fa421d1e625829f57" style="width: 100.0%; height: 100.0%;">Southern Carpathians Rewilding Area</div>`)[0];
+            popup_d6e139a668594290be9f7e75600bf3e5.setContent(html_df7e52eaf9c64c6fa421d1e625829f57);
+        
+
+        marker_c0d904acb615434bb399734e684383c7.bindPopup(popup_d6e139a668594290be9f7e75600bf3e5)
+        ;
+
+        
+    
+    
+            var marker_97a74747e0d648a48caab4bdbf0f63f3 = L.marker(
+                [44.567044, 15.271399],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_0a6f4ebfb98a4a8a86fcb6d8677d6fe1 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_dbee763e92074b6f93e1970681757913 = $(`<div id="html_dbee763e92074b6f93e1970681757913" style="width: 100.0%; height: 100.0%;">Velebit Mountains Rewilding Area</div>`)[0];
+            popup_0a6f4ebfb98a4a8a86fcb6d8677d6fe1.setContent(html_dbee763e92074b6f93e1970681757913);
+        
+
+        marker_97a74747e0d648a48caab4bdbf0f63f3.bindPopup(popup_0a6f4ebfb98a4a8a86fcb6d8677d6fe1)
+        ;
+
+        
+    
+    
+            var marker_d77d8d00c15149288a528fa975d6e64f = L.marker(
+                [42.62071, 12.924312],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_0a2c4d1139fa41b795c4187d68497e01 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_9ff8a1a6c4b24a65ba794919a0e67425 = $(`<div id="html_9ff8a1a6c4b24a65ba794919a0e67425" style="width: 100.0%; height: 100.0%;">Central Apennines Rewilding Area</div>`)[0];
+            popup_0a2c4d1139fa41b795c4187d68497e01.setContent(html_9ff8a1a6c4b24a65ba794919a0e67425);
+        
+
+        marker_d77d8d00c15149288a528fa975d6e64f.bindPopup(popup_0a2c4d1139fa41b795c4187d68497e01)
+        ;
+
+        
+    
+    
+            var marker_60328134204e4c90a79adab6247d657d = L.marker(
+                [41.657743, 25.907107],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_c39643bcf91d4b488ccc687d4d368d92 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_7cb79bd25bcf4631aabcf6fb56ae8853 = $(`<div id="html_7cb79bd25bcf4631aabcf6fb56ae8853" style="width: 100.0%; height: 100.0%;">Rhodope Mountains Rewilding Area</div>`)[0];
+            popup_c39643bcf91d4b488ccc687d4d368d92.setContent(html_7cb79bd25bcf4631aabcf6fb56ae8853);
+        
+
+        marker_60328134204e4c90a79adab6247d657d.bindPopup(popup_c39643bcf91d4b488ccc687d4d368d92)
+        ;
+
+        
+    
+    
+            var marker_f9c17d129cc746a1baffb9f32b2459b2 = L.marker(
+                [53.669179, 14.556749],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_1634e8521c354d27bf4c9e57a5354bef = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_194743a8fb3d48b9a9732544f4c5be8b = $(`<div id="html_194743a8fb3d48b9a9732544f4c5be8b" style="width: 100.0%; height: 100.0%;">Oder Delta Rewilding Area</div>`)[0];
+            popup_1634e8521c354d27bf4c9e57a5354bef.setContent(html_194743a8fb3d48b9a9732544f4c5be8b);
+        
+
+        marker_f9c17d129cc746a1baffb9f32b2459b2.bindPopup(popup_1634e8521c354d27bf4c9e57a5354bef)
+        ;
+
+        
+    
+    
+            var marker_1995a9714bec4aa58988a5ef8fd287c2 = L.marker(
+                [57.268263, -4.932919],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_e35e20bd090a441c96ee564cd623ab59 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_d97f260c1d304ff190614c2669a02c0a = $(`<div id="html_d97f260c1d304ff190614c2669a02c0a" style="width: 100.0%; height: 100.0%;">Affric Highlands Rewilding Area</div>`)[0];
+            popup_e35e20bd090a441c96ee564cd623ab59.setContent(html_d97f260c1d304ff190614c2669a02c0a);
+        
+
+        marker_1995a9714bec4aa58988a5ef8fd287c2.bindPopup(popup_e35e20bd090a441c96ee564cd623ab59)
+        ;
+
+        
+    
+    
+            var marker_170fadf07cfd4cb7a89476f92c30ba89 = L.marker(
+                [67.831064, 20.561988],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_1c2e20526a9341ac85709bad98b9211a = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_5b66f9da2d79446da9fd1a826ed820a4 = $(`<div id="html_5b66f9da2d79446da9fd1a826ed820a4" style="width: 100.0%; height: 100.0%;">Swedish Lapland Rewildling Area</div>`)[0];
+            popup_1c2e20526a9341ac85709bad98b9211a.setContent(html_5b66f9da2d79446da9fd1a826ed820a4);
+        
+
+        marker_170fadf07cfd4cb7a89476f92c30ba89.bindPopup(popup_1c2e20526a9341ac85709bad98b9211a)
+        ;
+
+        
+    
+    
+            var marker_ba4698973e2d4dddb622f15e523287a5 = L.marker(
+                [52.454613, 5.411887],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_9b5032298a244a0bbc36c0543ff14758 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_d3658541a5ea4b51b084522943f8197c = $(`<div id="html_d3658541a5ea4b51b084522943f8197c" style="width: 100.0%; height: 100.0%;">Oostvaardersplassen</div>`)[0];
+            popup_9b5032298a244a0bbc36c0543ff14758.setContent(html_d3658541a5ea4b51b084522943f8197c);
+        
+
+        marker_ba4698973e2d4dddb622f15e523287a5.bindPopup(popup_9b5032298a244a0bbc36c0543ff14758)
+        ;
+
+        
+    
+    
+            var marker_a62ae657843d4761b3686d27453ffd03 = L.marker(
+                [50.983451, -0.354675],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_5a1c5941592e4769b30d5f69b6b23bb9 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_5654dba8e8ed40e58b60393652f3701e = $(`<div id="html_5654dba8e8ed40e58b60393652f3701e" style="width: 100.0%; height: 100.0%;">Knepp Castle Estate</div>`)[0];
+            popup_5a1c5941592e4769b30d5f69b6b23bb9.setContent(html_5654dba8e8ed40e58b60393652f3701e);
+        
+
+        marker_a62ae657843d4761b3686d27453ffd03.bindPopup(popup_5a1c5941592e4769b30d5f69b6b23bb9)
+        ;
+
+        
+    
+    
+            var marker_7da95237d30b47a78b5db5f3fdcd77bc = L.marker(
+                [55.390608, -3.327813],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_77920e442c3b4bf0b1c551304ffb9357 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_82fa06f001104594b3e90a7bb1d059c5 = $(`<div id="html_82fa06f001104594b3e90a7bb1d059c5" style="width: 100.0%; height: 100.0%;">Carrifran Wildwood</div>`)[0];
+            popup_77920e442c3b4bf0b1c551304ffb9357.setContent(html_82fa06f001104594b3e90a7bb1d059c5);
+        
+
+        marker_7da95237d30b47a78b5db5f3fdcd77bc.bindPopup(popup_77920e442c3b4bf0b1c551304ffb9357)
+        ;
+
+        
+    
+    
+            var marker_9bbab3b184524ebe8834bfeb827f0a3a = L.marker(
+                [52.278817, 1.630098],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_6fd70df6ab9d4406afcaa48b3cbaa1f2 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_2284fa991fd64496a37570c75f9e01fc = $(`<div id="html_2284fa991fd64496a37570c75f9e01fc" style="width: 100.0%; height: 100.0%;">Dingle Marshes</div>`)[0];
+            popup_6fd70df6ab9d4406afcaa48b3cbaa1f2.setContent(html_2284fa991fd64496a37570c75f9e01fc);
+        
+
+        marker_9bbab3b184524ebe8834bfeb827f0a3a.bindPopup(popup_6fd70df6ab9d4406afcaa48b3cbaa1f2)
+        ;
+
+        
+    
+    
+            var marker_039f94b7a3c644a2a6d39428aff8fb4b = L.marker(
+                [52.447426, -0.170377],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_74f3cfe5caee48bbae93f52d690c386a = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_9ab6b68ab59b4fdaa461c29cd38346c1 = $(`<div id="html_9ab6b68ab59b4fdaa461c29cd38346c1" style="width: 100.0%; height: 100.0%;">Great Fen</div>`)[0];
+            popup_74f3cfe5caee48bbae93f52d690c386a.setContent(html_9ab6b68ab59b4fdaa461c29cd38346c1);
+        
+
+        marker_039f94b7a3c644a2a6d39428aff8fb4b.bindPopup(popup_74f3cfe5caee48bbae93f52d690c386a)
+        ;
+
+        
+    
+    
+            var marker_6b03a82e3bcd4ee685220a90fa8ff89a = L.marker(
+                [57.707973, -4.022875],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_6484dd39f33f4f18a646b1c9da149e12 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_afe0112be56b40ce9e537f494e0782a4 = $(`<div id="html_afe0112be56b40ce9e537f494e0782a4" style="width: 100.0%; height: 100.0%;">Nigg Bay Managed Realignment Scheme</div>`)[0];
+            popup_6484dd39f33f4f18a646b1c9da149e12.setContent(html_afe0112be56b40ce9e537f494e0782a4);
+        
+
+        marker_6b03a82e3bcd4ee685220a90fa8ff89a.bindPopup(popup_6484dd39f33f4f18a646b1c9da149e12)
+        ;
+
+        
+    
+    
+            var marker_3645b57a0a9d44a89e7de4109a06cd49 = L.marker(
+                [52.468565, -3.78345],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_3952765685224562a109bdadaca4b6a8 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_3eef5e0c87584b8c85df0238897bad48 = $(`<div id="html_3eef5e0c87584b8c85df0238897bad48" style="width: 100.0%; height: 100.0%;">Pumlumon Project</div>`)[0];
+            popup_3952765685224562a109bdadaca4b6a8.setContent(html_3eef5e0c87584b8c85df0238897bad48);
+        
+
+        marker_3645b57a0a9d44a89e7de4109a06cd49.bindPopup(popup_3952765685224562a109bdadaca4b6a8)
+        ;
+
+        
+    
+    
+            var marker_8e27cf812df34fbdbc8f61b35c7197a2 = L.marker(
+                [52.713608, -1.116286],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_44a9c760934e41698dbeb94ed3c44b9d = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_f8da7ccd3c1844ffb6a910136a118369 = $(`<div id="html_f8da7ccd3c1844ffb6a910136a118369" style="width: 100.0%; height: 100.0%;">Soar Valley</div>`)[0];
+            popup_44a9c760934e41698dbeb94ed3c44b9d.setContent(html_f8da7ccd3c1844ffb6a910136a118369);
+        
+
+        marker_8e27cf812df34fbdbc8f61b35c7197a2.bindPopup(popup_44a9c760934e41698dbeb94ed3c44b9d)
+        ;
+
+        
+    
+    
+            var marker_a6272e8b46204ded81f22f5f9f40a8a0 = L.marker(
+                [52.033347, -2.367489],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_2a01078584944990aa53b0ca88d8e866 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_cf6a47b40368422fbd4c5357aeb673c9 = $(`<div id="html_cf6a47b40368422fbd4c5357aeb673c9" style="width: 100.0%; height: 100.0%;">Vincent Wildlife Pine Marten Recovery Project</div>`)[0];
+            popup_2a01078584944990aa53b0ca88d8e866.setContent(html_cf6a47b40368422fbd4c5357aeb673c9);
+        
+
+        marker_a6272e8b46204ded81f22f5f9f40a8a0.bindPopup(popup_2a01078584944990aa53b0ca88d8e866)
+        ;
+
+        
+    
+    
+            var marker_0b1bc41a782c4b658bd7e0618f444c13 = L.marker(
+                [54.522184, -3.393066],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_ce7ec8504fbf45a3bd9efa2d67d6198d = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_482767e6a58842899c9fd09dd34f5780 = $(`<div id="html_482767e6a58842899c9fd09dd34f5780" style="width: 100.0%; height: 100.0%;">Wild Ennerdale</div>`)[0];
+            popup_ce7ec8504fbf45a3bd9efa2d67d6198d.setContent(html_482767e6a58842899c9fd09dd34f5780);
+        
+
+        marker_0b1bc41a782c4b658bd7e0618f444c13.bindPopup(popup_ce7ec8504fbf45a3bd9efa2d67d6198d)
+        ;
+
+        
+    
+    
+            var marker_66e524052b4d4766865dac6a19613ee5 = L.marker(
+                [54.015241, -9.645357],
+                {}
+            ).addTo(map_a24cb3a1ede148c5ad88c71342400192);
+        
+    
+        var popup_38c599a71d14491d830b879c4b684543 = L.popup({"maxWidth": 500, "minWidth": 200});
+
+        
+            var html_17a000ffd8054de2b1d8ff48ee6361d1 = $(`<div id="html_17a000ffd8054de2b1d8ff48ee6361d1" style="width: 100.0%; height: 100.0%;">Wild Nephin</div>`)[0];
+            popup_38c599a71d14491d830b879c4b684543.setContent(html_17a000ffd8054de2b1d8ff48ee6361d1);
+        
+
+        marker_66e524052b4d4766865dac6a19613ee5.bindPopup(popup_38c599a71d14491d830b879c4b684543)
+        ;
+
+        
+    
+</script>
