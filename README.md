@@ -1,2 +1,2 @@
 # frontiers_restoration
-GitHub repository for the creation of and visualisation of a number of different restoration projects.
+Repository for the creation and visualisation of a map of restoration projects for the Panter et al., (in press) Frontiers for Young Minds Article.
